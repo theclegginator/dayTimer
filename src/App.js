@@ -56,7 +56,7 @@ class App extends Component {
   render() {
     return(
       <div className="App">
-        <h1>Day Organizer</h1>
+        <h1 className="app-title">dayTimer</h1>
         <button type="button" onClick={this.addStopwatch}>Add Stopwatch</button>
         <button type="button" onClick={this.addCountdown}>Add Countdown</button>
         <Stopwatch instances={this.state.stopwatches} />
